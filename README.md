@@ -8,5 +8,6 @@
 gearman нужно установить вручную через ssh
 sudo apt-get install gearman-job-server libgearman-dev
 sudo apt-get upgrade
+sudo pecl install gearman
 
 gearman.so уже прописан
