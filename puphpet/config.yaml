@@ -209,6 +209,7 @@ php:
         extension: gearman.so
         max_file_uploads: '50'
         upload_max_filesize: 256M
+        post_max_size: 256M
     fpm_ini:
         error_log: /var/log/php-fpm.log
     fpm_pools:
