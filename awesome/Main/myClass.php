@@ -79,7 +79,8 @@ class MyClass
             foreach ($_FILES["file"]["error"] as $key => $error)
             {
                 if ($error == UPLOAD_ERR_OK)
-                {
+                {       if (!file_exists(self::$uploads_dir))
+                            mkdir(self::$uploads_dir);
                         $tmp_name = $_FILES["file"]["tmp_name"][$key];
                         $name = $_FILES["file"]["name"][$key];
                         move_uploaded_file($tmp_name, self::$uploads_dir . $name);
