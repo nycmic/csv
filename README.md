@@ -9,13 +9,17 @@
 
 в хостс прописать 192.168.56.101 awesome.dev www.awesome.dev
 
-gearman нужно установить вручную через ssh
+gearman нужно установить вручную через ssh:
 
-sudo apt-get install gearman-job-server libgearman-dev
+-cd эта папка
 
-sudo apt-get upgrade
+-vagrant ssh
 
-sudo pecl install gearman
+-sudo apt-get install gearman-job-server libgearman-dev
+
+-sudo apt-get upgrade
+
+-sudo pecl install gearman
 
 cd эта папка vagrant reload
 
