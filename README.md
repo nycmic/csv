@@ -10,4 +10,6 @@ sudo apt-get install gearman-job-server libgearman-dev
 sudo apt-get upgrade
 sudo pecl install gearman
 
+cd эта папка vagrant reload
+
 gearman.so уже прописан
