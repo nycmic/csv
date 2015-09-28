@@ -19,6 +19,8 @@ gearman нужно установить вручную через ssh:
 
 -sudo pecl install gearman
 
+-exit
+
 cd эта папка vagrant reload
 
 gearman.so уже прописан
